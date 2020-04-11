@@ -260,7 +260,7 @@ public class SubstringSolution {
 //                strings.remove(s);
 //            }
 //        }
-        System.out.println(letterCombinations("03993"));
+//        System.out.println(letterCombinations("03993"));
     }
 
     //1.精度丢失 bigdecimal为什么不会
