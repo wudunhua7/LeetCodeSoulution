@@ -1,10 +1,28 @@
 package com.leetcode.string;
 
+import java.util.ArrayList;
+
 /**
  * Created by Administrator on 2020/4/12.
  */
 public class DeleteElement {
 
+    public static void main(String[] args) {
+        int i = Integer.MAX_VALUE % 10;
+        System.out.println(Integer.MAX_VALUE);
+        System.out.println(Integer.MAX_VALUE/10);
+        System.out.println(i);
+        int i1 = Integer.MIN_VALUE % 10;
+        System.out.println(i1);
+        System.out.println(Integer.MIN_VALUE);
+        System.out.println(Integer.MIN_VALUE/10);
+
+        ArrayList<StringBuilder> stringBuilders = new ArrayList<>(3);
+        System.out.println(stringBuilders.size());
+        StringBuilder stringBuilder = stringBuilders.get(0);
+        System.out.println(stringBuilder);
+
+    }
     /**
      * 26. 删除排序数组中的重复项
      * 给定一个排序数组，你需要在 原地 删除重复出现的元素，使得每个元素只出现一次，返回移除后数组的新长度。
